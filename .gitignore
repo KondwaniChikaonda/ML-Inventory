@@ -1,0 +1,45 @@
+# Git ignore for Hospital Supply Chain ML System
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Data (keep structure but ignore files)
+data/*.csv
+data/*.xlsx
+data/*.json
+
+# Models
+models/*.pkl
+models/*.joblib
+models/*.h5
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.local
+
+# OS specific
+.DS_Store
+Thumbs.db
